@@ -23,7 +23,7 @@ RUN apt-get install -y curl git-core build-essential python libavahi-compat-libd
 
 RUN curl -sL https://deb.nodesource.com/setup_0.12 | bash -
 
-RUN apt-get install nodejs
+RUN apt-get install -y nodejs
 
 RUN npm install npm -g
 
